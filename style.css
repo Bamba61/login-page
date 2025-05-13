@@ -1,0 +1,64 @@
+@import url(https://fonts.google.com/specimen/Cal+Sans);
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background:url("web.webp");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.wrapper{
+    width:320px;
+    height:300px;
+    background-color: transparent;
+    border-color: gray;
+    color:white;
+    border-radius: 40px;
+    border: 2px solid ;
+    padding:30px 40px;
+    
+}
+
+.wrapper h1{
+    text-align: center;
+}
+.wrapper input-box{
+    width: 95%;
+    height: 50px;
+    background-color: aqua;              
+    margin: 30px;
+   
+}
+
+.input-box input{
+    width: 98%;
+    height: 40px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    
+}
+.input-box input::placeholder{
+    color:white;
+}
+
+.btn{
+  width:100%;
+  height: 40px; 
+  border: none;
+  outline:none;
+  border-radius: 40px;
+  font-size: 18px;
+  color:gray;
+
+}
+
+
